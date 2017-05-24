@@ -3,9 +3,9 @@ This document describes how to setup the provided Python code
 
 # Prerequisites
 
-* Python 2.7 or 3.4.3
+* Python 2.7 or 3.*
 * Homebrew if using Mac
-* PyCharm Community Edition: https://www.jetbrains.com/pycharm/download/
+* PyCharm Community Edition: https://www.jetbrains.com/pycharm/download/ (optional)
 
 # Setup
 
@@ -26,7 +26,7 @@ On CentOS:
         
 On Ubuntu:
 
-    apt-get install python-dev python-pip libssl-dev libffi-dev libsasl2-dev
+    apt install python-dev python-pip libssl-dev libffi-dev libsasl2-dev
         
 ## Project setup
 
@@ -46,7 +46,7 @@ On Ubuntu:
   
 1. Start adding to the skeleton code:
   1. The missing parts are marked with ``TODO`` in ``oidc_rp/client.py``.
-  1. Read the [Python Cookbook](https://github.com/rohe/pyoidc/blob/master/doc/howto/rp.rst) for more
+  1. Read the [Python Cookbook](https://github.com/OpenIDC/pyoidc/blob/master/doc/examples/rp.rst) for more
      information about how to use the pyOIDC OpenID Connect library.
   1. Make sure to delete cookies and cached data in the browser while
      testing to avoid strange results (e.g. due to the browser caching
